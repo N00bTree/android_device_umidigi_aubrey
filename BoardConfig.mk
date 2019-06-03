@@ -128,7 +128,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 
 TW_CUSTOM_CPU_TEMP_PATH := /sys/class/thermal/thermal_zone4/temp
 TW_USE_TOOLBOX := true
-TW_INCLUDE_FB2PNG := true
+# TW_INCLUDE_FB2PNG := true // Ecluded due to issue with core TWRP
 
 # Excludes
 TW_EXCLUDE_TWRPAPP := true
